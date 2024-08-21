@@ -1,0 +1,77 @@
+:root {
+    --mainColor: #aaaaaa;
+    --mainColorLight: #ffffff;
+    --turnersNav: #0073cf;
+    --secondColor: #2b7bf1;
+    --textColor: #eee;
+    --textColorDark: #000;
+}
+
+.background, .quickNav, .loginSection, .navBarContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quickNav {
+    flex-direction: row;
+    gap: 1.5rem;
+    color: var(--secondColor);
+}
+
+.loginSection {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    gap: 1.5rem;
+    font-weight: 500;
+    color: var(--textColorDark);
+
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.loginRegister {
+    display: flex;
+    gap: .4rem;
+    font-size: 1.2rem;
+    color: var(--secondColor);
+}
+
+.orLogin {
+    font-weight: 300;
+    font-style: italic;
+    color: var(--mainColor);
+}
+
+.chineseLang {
+    color: red;
+    font-weight: 800;
+}
+
+.navBar {
+    height: 4rem;
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: var(--textColor);
+    background-color: var(--turnersNav);
+    
+}
+
+.navBarContainer {
+    width: auto;
+    flex-direction: row;
+    gap: 1.5rem;
+}

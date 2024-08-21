@@ -1,0 +1,74 @@
+:root {
+    --mainColor: #aaaaaa;
+    --mainColorLight: #ffffff;
+    --secondColor: #2b7bf1;
+    --textColor: #eee;
+    --textColorDark: #000;
+}
+
+.background {
+    margin-top: 3rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--mainColorLight);
+}
+
+.uploadCard, .showCard {
+    width: 40%;
+    padding: 0 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.uploadImg {
+    width: 500px;
+    height: auto;
+    border-radius: 1rem;
+    background-color: var(--mainColor);
+}
+
+.submitCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 2rem;
+    width: 11rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    color: var(--textColor);
+    background-color: var(--secondColor);
+}
+
+.prediction {
+    font-weight: 600;
+}
+
+.showPrediction {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 4rem;
+}
+
+.showDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    gap: 1.5rem;
+    color: var(--secondColor);
+    background-color: var(--mainColorLight);
+}
